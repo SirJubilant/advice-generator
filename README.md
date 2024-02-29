@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/css-grid-fetch-api-6OAHlUXKPz)
+- Live Site URL: [ live site URL here](https://advice-generator-seven-blush.vercel.app/)
 
 ## My process
 
@@ -71,5 +71,5 @@ I plan to add other features on this project in time to come. Features like addi
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/SirJubilant)
+- Frontend Mentor - [@SirJubilant](https://www.frontendmentor.io/profile/SirJubilant)
 - Twitter - [@jubilant_agida](https://www.twitter.com/jubilant_agida)
