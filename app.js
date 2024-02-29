@@ -10,7 +10,7 @@ const renderSlips = () => {
             const slip = data.slip;
             header.innerText = `ADVICE ${' '} #${slip.id}`;
             advice.innerText = `"${slip.advice}"`;
-        })
+        });
 
 }
 

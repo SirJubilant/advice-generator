@@ -62,12 +62,14 @@ srcset {
             padding: 12px;
             text-transform: uppercase;
             color: var(--neon-green);
-            font-size: clamp(0.25rem, 5vw, 0.5rem)
+            font-size: clamp(0.25rem, 5vw, 0.5rem);
+                animation: slideDown 0.4s both;
         }
 
         p {
             padding: 12px 0;
             font-size: clamp(0.6rem, 5vw, 0.9rem);
+            animation: slideUp 0.4s both;
         } 
 
         .btn {
@@ -92,7 +94,33 @@ srcset {
 
 
 
+@keyframes slideUp {
+    from {
+        visibility: hidden;
+        transform: translateY(100%);
+        filter: blur(5px);
+    }
 
+    to {
+        visibility: visible;
+        transform: translateY(0);
+        filter: blur(0px);
+    }
+}
+
+@keyframes slideDown {
+    from {
+        visibility: hidden;
+        transform: translateY(-100%);
+        filter: blur(5px);
+    }
+
+        to {
+            visibility: visible;
+            transform: translateY(0);
+            filter: blur(0px);
+        }
+        }
 
 .attribution {
     font-size: 12px;
